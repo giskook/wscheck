@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/giskook/wscheck/wscheck"
+	"github.com/giskook/wscheck/pending"
 )
 
 func main() {
-	wscheck.WsConcurrent()
+	pending.Transfer()
 }
