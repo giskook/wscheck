@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/giskook/wscheck/pending"
+	"github.com/giskook/wscheck/erc20balance"
 )
 
 func main() {
-	pending.Transfer()
+	erc20balance.CheckBalance()
 }
