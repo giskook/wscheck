@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/giskook/wscheck/erc20balance"
+	"github.com/giskook/wscheck/blocknumber"
 )
 
 func main() {
-	erc20balance.CheckBalance()
+	blocknumber.BlockNumber()
 }
