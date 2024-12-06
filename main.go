@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/giskook/wscheck/blocknumber"
+	"github.com/giskook/wscheck/getblockbynumber"
 )
 
 func main() {
-	blocknumber.BlockNumber()
+	getblockbynumber.GetBlockByNumber()
 }
